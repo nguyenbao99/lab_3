@@ -12,3 +12,6 @@ echo "Number of phone numbers: "
 grep -c '[0-9]\{3\}-[0-9]\{3\}-[0-9]\{4\}' regex_practice.txt
 grep '303' regex_practice.txt
 grep "@geocities.com" regex_practice.txt >> email_results.txt
+git add email_results.txt
+git commit -m "Creating lab3_script.sh"
+git push origin master
